@@ -1,4 +1,13 @@
-i{
-    width: 10px;
-    height: 10px;
+.resume{
+    padding: 20px;
+    font-size: 15px;
+    font-family: inherit;
+    text-transform: none;
+    margin: 0%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn[class*=btn-outline-].btn-sm{
+    padding: 0%;
 }
