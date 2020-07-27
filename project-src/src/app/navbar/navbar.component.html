@@ -24,7 +24,7 @@
   </nav> -->
 
 
-  <mdb-navbar SideClass="navbar navbar-expand-sm navbar-dark">
+  <!-- <mdb-navbar SideClass="navbar navbar-expand-xl navbar-dark">
     <mdb-navbar-brand>
       <a class="navbar-brand" href="#">
         <fa-icon [icon]="faAutoprefixer"></fa-icon>
@@ -43,18 +43,43 @@
           <a class="nav-link" href="#">Contact</a>
         </li>    
       </ul>
-    
-    <!-- <links> -->
-        
-          <!-- <div class="md-form my-0"> -->
-              <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
-              
-          <!-- </div> -->
         </form>
         <button class="resume_btn" mdbBtn color="success" outline="true" size="sm" class="my-0 waves-light" type="submit" mdbWavesEffect>
           <a class = "resume" href="/resume.pdf" target="_blank">Resume</a>
         </button>
-        <!-- <button mdbBtn color="success" outline="true" size="sm" class="my-0 waves-light" type="submit" mdbWavesEffect>Resume</button> -->
-    <!-- </links> -->
+       
     </links>
-</mdb-navbar>
+</mdb-navbar> -->
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="navbar-brand">
+    <fa-icon [icon]="faAutoprefixer"></fa-icon>
+  </div>
+
+  <button class="navbar-toggler" type="button"
+          (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse"
+       [ngClass]="{ 'show': navbarOpen }">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Experience</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Experience</a>
+      </li>
+
+      <li class="nav-item nav-resume">
+        <a class="nav-link" href="/resume.pdf">Resume</a>
+      </li>
+    </ul>
+  </div>
+</nav>

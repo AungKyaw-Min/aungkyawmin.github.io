@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faAutoprefixer } from '@fortawesome/free-brands-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -14,4 +15,11 @@ export class NavbarComponent implements OnInit {
   }
 
   faAutoprefixer = faAutoprefixer;
+  faBars = faBars;
+
+  navbarOpen = false;
+
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
 }
