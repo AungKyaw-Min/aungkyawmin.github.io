@@ -1,0 +1,30 @@
+.footer-container{
+    margin: 0px;
+    height: 100%;
+    padding: 150px 50px;
+}
+
+.inner-footer{
+    text-align: center;
+    max-width: 600px;
+    padding: 150px 0px;
+    margin: 0px auto 100px;
+}
+
+span{
+    font-size: 2.5em;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+a{
+    color: black;
+    list-style: none;
+    border: cyan solid 2px;
+    border-radius: 1px;
+    padding: 18px 25px;
+}

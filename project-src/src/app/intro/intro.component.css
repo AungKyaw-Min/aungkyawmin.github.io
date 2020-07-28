@@ -1,0 +1,50 @@
+.about-container{
+    margin: 0px;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 500px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.inner-about{
+    text-align: left;
+    width: 1000px;
+    /* padding: 150px 0px; */
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 300px;
+    padding-left: 0px;
+    margin: 0px auto 80px;
+}
+
+span{
+    font-size: 2.5em;
+}
+
+p{
+    width: 50%;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+a{
+    color: black;
+    list-style: none;
+    border: cyan solid 2px;
+    border-radius: 1px;
+    padding: 18px 25px;
+}
+
+.first_intro{
+    font-size: 1.5em;
+}
+
+.second_intro{
+    font-size: 3.8em;
+}
+
+.third_intro{
+    font-size: 3.7em;
+}
