@@ -6,13 +6,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContactInformationComponent } from './contact-information/contact-information.component';
 import { AboutComponent } from './about/about.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ContactInformationComponent,
-    AboutComponent
+    AboutComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule,
