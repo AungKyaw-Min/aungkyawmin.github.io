@@ -1,7 +1,9 @@
 .footer-container{
+    background-color: #31355b;
     margin: 0px;
     height: 100%;
     padding: 150px 50px;
+    color: rgba(255, 255, 255, 0.856);
 }
 
 .inner-footer{
@@ -22,9 +24,9 @@ p{
 }
 
 a{
-    color: black;
+    color: #fff;
+    background-color: #4299ed;
     list-style: none;
-    border: cyan solid 2px;
-    border-radius: 1px;
+    border-radius: 10%;
     padding: 18px 25px;
 }

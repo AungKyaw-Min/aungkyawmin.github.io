@@ -8,6 +8,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { IntroComponent } from './intro/intro.component';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
     AboutComponent,
     CopyrightComponent,
     IntroComponent,
-    GetInTouchComponent
+    GetInTouchComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
