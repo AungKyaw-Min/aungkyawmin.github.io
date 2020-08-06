@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'aungkyaw-min';
+  title = 'Aung Kyaw Min';
 
 
   constructor(private titleService: Title) {
