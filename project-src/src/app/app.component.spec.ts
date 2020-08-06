@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'AungKyawMin'`, () => {
+  it(`should have as title 'aungkyaw-min'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('AungKyawMin');
+    expect(app.title).toEqual('aungkyaw-min');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('AungKyawMin app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('aungkyaw-min app is running!');
   });
 });

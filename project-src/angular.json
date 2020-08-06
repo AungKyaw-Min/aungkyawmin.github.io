@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AungKyawMin": {
+    "aungkyaw-min": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AungKyawMin:build"
+            "browserTarget": "aungkyaw-min:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AungKyawMin:build:production"
+              "browserTarget": "aungkyaw-min:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AungKyawMin:build"
+            "browserTarget": "aungkyaw-min:build"
           }
         },
         "test": {
@@ -121,15 +121,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "AungKyawMin:serve"
+            "devServerTarget": "aungkyaw-min:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "AungKyawMin:serve:production"
+              "devServerTarget": "aungkyaw-min:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "AungKyawMin"
+  "defaultProject": "aungkyaw-min"
 }
