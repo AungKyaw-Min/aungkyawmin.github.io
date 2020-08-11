@@ -1,9 +1,10 @@
 .footer-container{
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     background-color: #31355b;
     margin: 0px;
     height: 100%;
     padding: 150px 50px;
-    color: rgba(255, 255, 255, 0.856);
+    color: #fff;
 }
 
 .inner-footer{
@@ -13,20 +14,27 @@
     margin: 0px auto 100px;
 }
 
-span{
-    font-size: 2.5em;
+h2{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+h3{
+    padding-top: 15px;
+    font-weight: 500;
 }
 
 p{
     width: 100%;
     text-align: center;
-    padding: 40px 20px;
+    padding: 10px 20px;
+    margin-bottom: 0px;
 }
 
 a{
     color: #fff;
     background-color: #4299ed;
     list-style: none;
-    border-radius: 10%;
+    border-radius: 8px;
     padding: 18px 25px;
 }

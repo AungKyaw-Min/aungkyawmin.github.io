@@ -9,6 +9,7 @@ import { CopyrightComponent } from './copyright/copyright.component';
 import { IntroComponent } from './intro/intro.component';
 import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SkillsComponent } from './skills/skills.component';
     CopyrightComponent,
     IntroComponent,
     GetInTouchComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

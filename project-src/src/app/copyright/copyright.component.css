@@ -3,12 +3,18 @@
     text-align: center;
     background-color: #212121;
     color: rgba(255, 255, 255, 0.5);
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
 
 a{
     color: rgba(255, 255, 255, 0.5);
+    
     /* padding: 30px 15px; */
+}
+
+fa-icon{
+    border-radius: 50%;
+    background: rgba(128, 128, 128, 0.568);
 }
 
 li{
@@ -20,9 +26,15 @@ ul{
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    margin-bottom: 5px;
 }
 
 .icon{
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 10px;
+}
+
+p{
+    font-size: 15px;
+    margin-bottom: 0px;
 }

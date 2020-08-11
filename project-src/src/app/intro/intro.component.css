@@ -6,8 +6,9 @@
     height: 100%;
     padding-left: 10em;
     padding-right: auto;
-    padding-bottom: 190px;
-    padding-top: 190px;
+    padding-bottom: 170px;
+    padding-top: 170px;
+    max-height: 860px;
 }
 
 .inner-about{
