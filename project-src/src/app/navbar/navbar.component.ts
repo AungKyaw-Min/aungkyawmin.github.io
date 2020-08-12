@@ -22,4 +22,8 @@ export class NavbarComponent implements OnInit {
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;
   }
+
+  scroll(i) {
+    document.getElementById(i).scrollIntoView();
+  }
 }
