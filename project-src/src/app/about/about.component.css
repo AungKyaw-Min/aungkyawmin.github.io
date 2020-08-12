@@ -40,10 +40,10 @@ img{
 .about-container{
     font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     margin: 0px;
-    height: 100%;
     padding: 125px 50px;
     background-color: #21364b;
-    max-height: 950px;
+    height: 100vh;
+    max-height: 100vh;
 }
 
 .inner-about{

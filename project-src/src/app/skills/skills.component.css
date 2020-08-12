@@ -1,0 +1,24 @@
+.skills-container{
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    background-color: #bc855b;
+    margin: 0px;
+    padding: 150px 50px;
+    color: #e4b58f;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.inner-skills{
+    text-align: center;
+    max-width: 600px;
+    padding: 150px 0px;
+    margin: 0px auto 100px;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}

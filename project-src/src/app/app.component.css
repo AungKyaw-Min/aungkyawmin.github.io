@@ -6,3 +6,7 @@
 body{
     background-color:   #BBBBBB;
 }
+
+html{
+    height: 100vh;
+}

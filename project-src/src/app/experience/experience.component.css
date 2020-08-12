@@ -4,11 +4,11 @@ h4{
 
 .experience-contaniner{
     margin: 0px;
-    height: 100%;
     padding: 30px 50px;
     background-color: #679895;
     color: #fff;
-    max-height: 950px;
+    height: 100vh;
+    max-height: 100vh;
 }
 
 .container{

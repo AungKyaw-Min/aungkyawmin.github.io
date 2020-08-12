@@ -3,12 +3,12 @@
     /* background-color: #a3d3dd; */
     color: #e7e7e7;
     margin: 0px;
-    height: 100%;
     padding-left: 10em;
     padding-right: auto;
     padding-bottom: 170px;
     padding-top: 170px;
-    max-height: 860px;
+    height: 95vh;
+    max-height: 95vh;
 }
 
 .inner-about{
