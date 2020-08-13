@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { faAutoprefixer } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -25,5 +25,23 @@ export class NavbarComponent implements OnInit {
 
   scroll(i) {
     document.getElementById(i).scrollIntoView();
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(e){
+    let element = document.querySelector('.navbar');
+    
+    if(window.pageYOffset > 80){
+      // console.log(window.pageYOffset)
+      // console.log(element.clientHeight)
+      element.classList.add('navbar-change');
+      // element.classList.add('fadeInDown');
+      // element.classList.add('animated');
+    }
+    else{
+      element.classList.remove('navbar-change');
+      element.classList.remove('fadeInUp');
+
+    }
   }
 }

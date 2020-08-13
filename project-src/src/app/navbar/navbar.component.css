@@ -87,8 +87,28 @@ a{
 } */
 
 /* 12:18 */
+.navbar-change{
+    /* background-color: blue !important;
+    transition: background-color 5s linear .2s; IE 10, Fx 16+, Op 12.1+  */
+    /* transition: background-color 1s ease-out; */
+    /* transition-duration: 5s;
+  transition-delay: 2s; */
+  /* -webkit-transition: background-color  5s ease-in-out; */
+    /* height: 48px;
+    --animate-duration: 3s !important;
+    --animate-delay: 3s !important;
+    --animate-repeat: 1; */
+    max-height:0;
+}
+
 .navbar{
    width: 100%;
+   height:auto;
+   max-height: 60px;
+   transition:max-height 0.3s ease-out;
+   /* transition: 2s ease-in-out; */
+   /* transition-duration: 5s;
+   transition-delay: 2s; */
 }
 
 .navbar-nav{

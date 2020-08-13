@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 
@@ -15,5 +15,8 @@ export class AppComponent {
     titleService.setTitle("Aung Kyaw Min | Software Engineer");
   }
 
- 
+ @HostListener('window:scroll', ['$event']) // for window scroll events
+  onScroll(event) {
+    console.log(event);
+  }
 }
