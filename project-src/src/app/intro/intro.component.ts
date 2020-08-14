@@ -12,4 +12,7 @@ export class IntroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scroll(i) {
+    document.getElementById(i).scrollIntoView();
+  }
 }

@@ -103,9 +103,10 @@ a{
 
 .navbar{
    width: 100%;
-   height:auto;
-   max-height: 60px;
-   transition:max-height 0.3s ease-out;
+   height: 60px;
+   /* height:auto; */
+   /* max-height: 60px;
+   transition:max-height 0.3s ease-out; */
    /* transition: 2s ease-in-out; */
    /* transition-duration: 5s;
    transition-delay: 2s; */

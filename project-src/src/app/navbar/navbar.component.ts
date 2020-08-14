@@ -34,9 +34,9 @@ export class NavbarComponent implements OnInit {
     if(window.pageYOffset > 80){
       // console.log(window.pageYOffset)
       // console.log(element.clientHeight)
-      element.classList.add('navbar-change');
       // element.classList.add('fadeInDown');
       // element.classList.add('animated');
+      // element.classList.add('navbar-change');
     }
     else{
       element.classList.remove('navbar-change');
