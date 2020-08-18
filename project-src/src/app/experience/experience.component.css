@@ -3,6 +3,7 @@ h4{
 }
 
 .experience-contaniner{
+    overflow: hidden;
     margin: 0px;
     padding: 30px 50px;
     background-color: #679895;

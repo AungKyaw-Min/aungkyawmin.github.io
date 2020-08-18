@@ -40,7 +40,7 @@ img{
 .about-container{
     font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     margin: 0px;
-    padding: 125px 50px;
+    overflow: hidden;
     background-color: #21364b;
     height: 100vh;
     max-height: 100vh;
@@ -94,14 +94,20 @@ img{
     border-radius: 50%;
 }
 
-/* Mobile S */
-@media only screen and (max-width: 320px)
+/* Mobile */
+@media only screen and (max-width: 480px) 
 {
+    img{
+        max-width:70%;
+        height:auto;
+    }
+
     .about-container{
-        padding: 45px 0px;
+        padding-top: 20px;
     }
     
     ul{
+        margin-bottom: 0px;
         padding-right: 10px;
         padding-left: 30px;
     }
@@ -110,23 +116,57 @@ img{
         padding-left: 5px;
         padding-right: 5px;
     }
+
+    p{
+        margin-bottom: 0px;
+    }
 }
 
-@media only screen and (max-width: 480px)
-{
+
+/* For devices with width of 480px and less, like phones */
+@media only screen and (max-width: 480px) {
     .about-container{
-        padding: 45px 0px;
+        padding: 100px 0px;
     }
-    
-    ul{
-        padding-right: 10px;
-        padding-left: 30px;
+} 
+
+@media only screen and (width: 375px){
+    .about-container{
+        padding: 100px 0px;
     }
 
-    li{
-        padding-left: 5px;
-        padding-right: 5px;
+    .detail{
+        visibility: hidden;
+    }
+} 
+
+@media only screen and (width: 320px) and (height: 568px){
+    .about-container{
+        padding: 70px 0px;
+    }
+
+    .detail{
+        visibility: hidden;
+    }
+} 
+
+/* For devices with width between 481px and 768px, like larger phones and portrait tablets */
+/* @media only screen and (min-width: 481px) {
+    .about-container{
+        padding: 120px 50px;
+    }
+}  */
+
+/* For devices with width between 769px and 1279px, like landscape tablets and laptops */
+@media only screen and (min-width: 768px) {
+    .about-container{
+        padding: 150px 50px;
+    }
+} 
+
+/* For devices with width of 1280px and more, like desktop computers */
+@media only screen and (min-width: 1280px) {
+    .about-container{
+        padding: 150px 50px;
     }
 }
-
-
