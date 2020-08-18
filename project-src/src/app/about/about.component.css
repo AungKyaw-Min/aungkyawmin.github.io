@@ -94,3 +94,39 @@ img{
     border-radius: 50%;
 }
 
+/* Mobile S */
+@media only screen and (max-width: 320px)
+{
+    .about-container{
+        padding: 45px 0px;
+    }
+    
+    ul{
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+
+    li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    .about-container{
+        padding: 45px 0px;
+    }
+    
+    ul{
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+
+    li{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+

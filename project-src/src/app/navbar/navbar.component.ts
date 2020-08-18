@@ -24,7 +24,7 @@ export class NavbarComponent implements OnInit {
   }
 
   scroll(i) {
-    document.getElementById(i).scrollIntoView();
+    document.getElementById(i).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 
   @HostListener('window:scroll', ['$event'])

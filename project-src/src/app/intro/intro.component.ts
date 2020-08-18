@@ -13,6 +13,6 @@ export class IntroComponent implements OnInit {
   }
 
   scroll(i) {
-    document.getElementById(i).scrollIntoView();
+    document.getElementById(i).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 }
