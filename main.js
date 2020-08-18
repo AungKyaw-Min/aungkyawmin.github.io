@@ -598,6 +598,7 @@ class NavbarComponent {
         this.navbarOpen = !this.navbarOpen;
     }
     scroll(i) {
+        this.toggleNavbar();
         document.getElementById(i).scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
     }
     onWindowScroll(e) {

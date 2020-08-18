@@ -24,6 +24,7 @@ export class NavbarComponent implements OnInit {
   }
 
   scroll(i) {
+    this.toggleNavbar();
     document.getElementById(i).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 
