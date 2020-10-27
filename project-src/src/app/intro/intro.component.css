@@ -2,7 +2,7 @@
     background-color: #75a7b2;
     overflow: hidden;
     /* background-color: #a3d3dd; */
-    color: #e7e7e7;
+    color: white;
     margin: 0px;
     /* padding-left: 10em; */
     /* padding-right: auto;
@@ -90,7 +90,7 @@ h3{
 @media only screen and (min-width: 481px)
 {
     .intro-container{
-        padding: 180px 100px;
+        padding: 10px 100px;
     }
     .inner-intro{
         margin: 0px;
@@ -110,7 +110,7 @@ h3{
 @media only screen and (min-width: 1280px)
 {
     .intro-container{
-        padding: auto 0px;
+        padding: 100px 0px;
     }
     .second_intro{
         font-size: 75px;

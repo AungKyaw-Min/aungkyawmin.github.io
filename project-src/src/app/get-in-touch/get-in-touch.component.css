@@ -1,94 +1,92 @@
-.get-in-touch-container{
-    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    background-color: #31355b;
-    margin: 0px;
-    height: 82vh;
-    padding: 150px 50px;
-    color: #fff;
-    overflow: hidden;
+.get-in-touch-container {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial,
+    "Lucida Grande", sans-serif;
+  background-color: #31355b;
+  margin: 0px;
+  height: 82vh;
+  padding: 150px 50px;
+  color: #fff;
+  overflow: hidden;
 }
 
-.inner-get-in-touch{
-    text-align: center;
-    max-width: 600px;
-    
-    margin: 0px auto;
+.inner-get-in-touch {
+  text-align: center;
+  max-width: 600px;
+
+  margin: 0px auto;
 }
 
-h2{
-    font-size: 3em;
-    font-weight: 300;
+h2 {
+  font-size: 3em;
+  font-weight: 300;
 }
 
-h3{
-    padding-top: 15px;
-    font-weight: 500;
+h3 {
+  padding-top: 15px;
+  font-weight: 500;
 }
 
-p{
-    width: 100%;
-    text-align: center;
-    padding: 10px 20px;
-    margin-bottom: 0px;
+p {
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  margin-bottom: 0px;
 }
 
-a{
-    color: #fff;
-    background-color: #4299ed;
-    list-style: none;
-    border-radius: 8px;
-    padding: 18px 25px;
+a {
+  color: #fff;
+  background-color: #4299ed;
+  list-style: none;
+  border-radius: 8px;
+  padding: 18px 25px;
 }
 
 /* For devices with width of 480px and less, like phones */
 @media only screen and (max-width: 480px) {
-    .get-in-touch-container{
-        padding: 150px 5px;
-    }
+  .get-in-touch-container {
+    padding: 150px 5px;
+  }
 
-    h2{
-        font-size: 2.5em;
-    }
+  h2 {
+    font-size: 2.5em;
+  }
 
-    h3{
-        font-size: 1.5em;
-    }
-} 
+  h3 {
+    font-size: 1.5em;
+  }
+}
 
 /* For devices with width between 481px and 768px, like larger phones and portrait tablets */
 @media only screen and (min-width: 481px) {
-    .get-in-touch-container{
-        padding: 80px 50px;
-    }
-    .inner-get-in-touch{
-        padding: 130px 0px;
-    }
-
-   
-} 
+  .get-in-touch-container {
+    padding: 80px 50px;
+  }
+  .inner-get-in-touch {
+    padding: 100px 0px;
+  }
+}
 
 /* For devices with width between 769px and 1279px, like landscape tablets and laptops */
 @media only screen and (min-width: 769px) {
-    
-} 
+}
 
 /* For devices with width of 1024px and more*/
 @media only screen and (min-width: 1024px) {
-    .get-in-touch-container{
-        padding: 100px 50px;
-    }
-    .inner-get-in-touch{
-        padding: 130px 0px;
-    }
+  .get-in-touch-container {
+    padding: 100px 50px;
+  }
+  .inner-get-in-touch {
+    padding: 130px 0px;
+  }
 }
 
 /* Large Laptop */
 @media only screen and (min-width: 1280px) {
-    .get-in-touch-container{
-        padding: 70px 50px;
-    }
+  .get-in-touch-container {
+    padding: 70px 50px;
+  }
 
-    .inner-get-in-touch{
-        padding: 150px 0px;
-    }
+  .inner-get-in-touch {
+    padding: 60px 0px;
+  }
 }
