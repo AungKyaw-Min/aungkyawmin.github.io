@@ -8,16 +8,24 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+  // innerHeight: any;
+ 
 
   constructor() { }
 
   ngOnInit(): void {
+    // this.innerHeight = window.innerHeight;
   }
+
+//   @HostListener('window:resize', ['$event'])
+// onResize(event) {
+//   this.innerHeight = window.innerHeight;
+// }
 
   faAutoprefixer = faAutoprefixer;
   faBars = faBars;
-
   navbarOpen = false;
+  // vh: any;
 
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;
@@ -27,6 +35,11 @@ export class NavbarComponent implements OnInit {
     this.toggleNavbar();
     document.getElementById(i).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
+
+  // getVh(height_in_px) {
+  //   this.vh = innerHeight*0.01;
+  //   return (height_in_px/ this.vh);
+  // }
 
   @HostListener('window:scroll', ['$event'])
   onWindowScroll(e){
@@ -40,8 +53,8 @@ export class NavbarComponent implements OnInit {
       // element.classList.add('navbar-change');
     }
     else{
-      element.classList.remove('navbar-change');
-      element.classList.remove('fadeInUp');
+      // element.classList.remove('navbar-change');
+      // element.classList.remove('fadeInUp');
 
     }
   }

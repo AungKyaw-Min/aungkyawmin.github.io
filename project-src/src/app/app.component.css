@@ -2,11 +2,11 @@
     background-color: #333333;
     color:  #EEEEEE;
 } */
-
-body{
-    background-color:   #BBBBBB;
+/* 
+.scroller{
+    scroll-snap-type: y mandatory;
 }
 
-html{
-    height: 100vh;
-}
+.mini_scroll{
+    scroll-snap-align: start;
+} */
