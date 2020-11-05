@@ -83,7 +83,7 @@ a {
 /* Large Laptop */
 @media only screen and (min-width: 1280px) {
   .get-in-touch-container {
-    padding: 70px 50px;
+    padding: 150px 50px;
   }
 
   .inner-get-in-touch {
